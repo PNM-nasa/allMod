@@ -1,4 +1,4 @@
-package example;
+package example.content;
 import arc.*;
 import arc.util.*;
 import mindustry.*;
@@ -8,7 +8,12 @@ import mindustry.gen.*;
 import mindustry.mod.*;
 import mindustry.ui.dialogs.*;
 
-public class NHItems{
+import arc.graphics.*;
+import mindustry.ctype.*;
+import mindustry.type.*;
+
+
+public class MItems{
 	
 	//Load Mod Items
 	
@@ -21,7 +26,7 @@ public class NHItems{
 	public static void load(){
 		ancimembrane = new Item("ancimembrane"){{
 			cost = 5;
-			color = NHColor.ancient;
+			//color = NHColor.ancient;
 			charge = 5;
 		}};
 		

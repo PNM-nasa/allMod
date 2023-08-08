@@ -9,6 +9,8 @@ import mindustry.gen.*;
 import mindustry.mod.*;
 import mindustry.ui.dialogs.*;
 
+import example.content.*;
+
 public class ExampleJavaMod extends Mod{
 
     public ExampleJavaMod(){
