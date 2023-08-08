@@ -40,7 +40,7 @@ public class MItems{
 		}};
 		presstanium = new Item("presstanium", Color.valueOf("6495ED")){{
 			flammability = 0.35f;
-			cost = 1.5f;
+			cost = 1.6f;
 		}};
 		seniorProcessor = new Item("processor-senior", Color.valueOf("FFFACD"));
 		juniorProcessor = new Item("processor-junior", Color.valueOf("808080"));
